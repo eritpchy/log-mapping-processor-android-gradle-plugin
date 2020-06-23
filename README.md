@@ -21,7 +21,7 @@ buildscript {
       jcenter()
     }
     dependencies {
-        classpath 'net.xdow:log-mapping-android-gradle-plugin:1.0.6'
+        classpath 'net.xdow:log-mapping-android-gradle-plugin:1.0.7'
     }
 }
 

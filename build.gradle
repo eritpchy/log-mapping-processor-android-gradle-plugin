@@ -13,7 +13,7 @@ apply plugin: 'maven'
 apply plugin: 'com.novoda.bintray-release'
 
 group 'net.xdow.logmapping'
-version '1.0.6'
+version '1.0.7'
 
 publish {
     userOrg = 'xscript'
@@ -40,7 +40,7 @@ dependencies {
     implementation gradleApi()
     implementation localGroovy()
     implementation 'com.android.tools.build:gradle:3.2.1'
-    implementation 'net.xdow:log-mapping:1.0.6'
+    implementation 'net.xdow:log-mapping:1.0.7'
 }
 
 jar {
